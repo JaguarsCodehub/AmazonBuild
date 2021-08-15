@@ -14,18 +14,34 @@ function Banner() {
                 showStatus={false}
                 showIndicators={false}
                 showThumbs={false}
-                interval={2000}
+                interval={4000}
             >
                 <div>
-                    <img loading="lazy" src="https://links.papareact.com/gi1" alt="" />
+                    <img loading="lazy" src="/images/slide1.jpg" alt="" />
                 </div>
 
                 <div>
-                    <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
+                    <img loading="lazy" src="/images/slide2.jpg" alt="" />
                 </div>
 
                 <div>
-                    <img loading="lazy" src="https://links.papareact.com/7ma" alt="" />
+                    <img loading="lazy" src="/images/slide3.jpg" alt="" />
+                </div>
+                
+                <div>
+                    <img loading="lazy" src="/images/slide4.jpg" alt="" />
+                </div>
+                
+                <div>
+                    <img loading="lazy" src="/images/slide5.jpg" alt="" />
+                </div>
+                
+                <div>
+                    <img loading="lazy" src="/images/slide6.jpg" alt="" />
+                </div>
+                
+                <div>
+                    <img loading="lazy" src="/images/slide7.jpg" alt="" />
                 </div>
 
             </Carousel>
