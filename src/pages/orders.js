@@ -49,6 +49,7 @@ function Orders({ orders }) {
 export default Orders;
 
 export async function getServerSideProps(context) {
+    const session = await getSession(context);
     const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
     //Get the users credentials
@@ -88,6 +89,7 @@ export async function getServerSideProps(context) {
     return {
         props: {
             orders,
+            session,
         },
     };
 }
